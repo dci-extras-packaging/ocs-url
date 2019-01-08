@@ -1,2 +1,2 @@
 version=4
-https://git.opendesktop.org/akiraohgaki/ocs-url/tags?sort=updated_desc .*/archive/release-.+/@PACKAGE@-release-@ANY_VERSION@@ARCHIVE_EXT@
+https://git.opendesktop.org/akiraohgaki/ocs-url/tags?sort=updated_desc .*/archive/release-(?:[\d\.]+)/@PACKAGE@-release-@ANY_VERSION@@ARCHIVE_EXT@
