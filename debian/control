@@ -1,12 +1,31 @@
 Source: ocs-url
 Section: web
 Priority: optional
-Maintainer: Akira Ohgaki <akiraohgaki@gmail.com>
-Build-Depends: git, build-essential, qt5-default (>= 5.2.0), libqt5svg5-dev (>= 5.2.0), qtdeclarative5-dev (>= 5.2.0), devscripts, debhelper, fakeroot
-Standards-Version: 3.9.4
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Scarlett Moore <sgmoore@kde.org>
+Build-Depends: debhelper (>= 12),
+               libqt5svg5-dev (>= 5.2.0),
+               qtbase5-dev (>= 5.2.0),
+               qtdeclarative5-dev (>= 5.2.0),
+Standards-Version: 4.3.0
+Homepage: https://git.opendesktop.org/akiraohgaki/ocs-url
+Vcs-Browser: https://salsa.debian.org/sgclark-guest/ocs-url
+Vcs-Git: https://salsa.debian.org/sgclark-guest/ocs-url.git
 
 Package: ocs-url
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, libqt5svg5 (>= 5.2.0), qml-module-qtquick2 (>= 5.2.0) | qtdeclarative5-qtquick2-plugin (>= 5.2.0), qml-module-qtquick-window2 (>= 5.2.0) | qtdeclarative5-window-plugin (>= 5.2.0), qml-module-qtquick-controls (>= 5.2.0) | qtdeclarative5-controls-plugin (>= 5.2.0)
-Description: OCS-URL
- An install helper program for items served via OpenCollaborationServices (ocs://).
+Depends: libqt5svg5 (>= 5.2.0),
+         qml-module-qtquick-controls (>= 5.2.0) | qtdeclarative5-controls-plugin (>= 5.2.0),
+         qml-module-qtquick-window2 (>= 5.2.0) | qtdeclarative5-window-plugin (>= 5.2.0),
+         qml-module-qtquick2 (>= 5.2.0) | qtdeclarative5-qtquick2-plugin (>= 5.2.0),
+         ${misc:Depends},
+         ${shlibs:Depends},
+Description: Helper for opening ocs:// urls
+ An install helper program for items served via
+ OpenCollaborationServices (ocs://).
+ Click a OCS-URL (ocs://) links, or type OCS-URL in browser's address bar.
+ If you use Firefox, a program selection window opens the first time you open
+ OCS-URL, and you can choose "ocs-url" as custom URL handler.
+ If you don't get the program selection window or you are using another browser,
+ please set the ocs-url program as custom URL handler for ocs:// scheme
+ in the browser's settings.
