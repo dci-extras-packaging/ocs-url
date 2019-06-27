@@ -1,7 +1,7 @@
 version=4
 https://git.opendesktop.org/akiraohgaki/ocs-url/tags?sort=updated_desc \
 .*/archive/release-(?:[\d\.]+)/@PACKAGE@-release-@ANY_VERSION@@ARCHIVE_EXT@ debian
-opts="component=qtil, uversionmangle=s/0.4.0/3.1.0/, \
-filenamemangle=s%(?:.*?)?release-?(\d[\d.]*)\.tar\.gz%qtil-$1.tar.gz%" \
-      https://github.com/akiraohgaki/qtil/tags \
-      (?:.*?/)?release-@ANY_VERSION@@ARCHIVE_EXT@ debian uupdate
+#opts="component=qtil, uversionmangle=s/0.4.0/3.1.0/, \
+#filenamemangle=s%(?:.*?)?release-?(\d[\d.]*)\.tar\.gz%qtil-$1.tar.gz%" \
+#      https://github.com/akiraohgaki/qtil/tags \
+#      (?:.*?/)?release-@ANY_VERSION@@ARCHIVE_EXT@ debian uupdate
