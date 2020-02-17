@@ -1,0 +1,10 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: ocs-url
+Upstream-Contact: Opendesktop.org <contact@opendesktop.org>
+Source: https://git.opendesktop.org/akiraohgaki/ocs-url
+
+Files: *
+Copyright: 2016-2019, Opendesktop.org
+License: GPL-3+
+ On Debian systems, the full text of the GNU General Public License version 3
+ can be found in the `/usr/share/common-licenses/GPL-3' file.

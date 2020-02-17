@@ -1,0 +1,13 @@
+{
+    "id": "ocs-url",
+    "name": "ocs-url",
+    "version": "3.1.0",
+    "organization": "Opendesktop.org",
+    "domain": "org.opendesktop.ocs-url",
+    "icon": ":/desktop/ocs-url.svg",
+    "description": "An install helper program for items served via OpenCollaborationServices (ocs://).",
+    "license": "GPL-3+",
+    "author": "Opendesktop.org",
+    "contact": "contact@opendesktop.org",
+    "homepage": "https://git.opendesktop.org/akiraohgaki/ocs-url"
+}
