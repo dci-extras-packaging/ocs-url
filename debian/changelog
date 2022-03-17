@@ -1,3 +1,9 @@
+ocs-url (3.1.0-1) stable; urgency=medium
+
+  * Replace qt5-default with qtbase5-dev as qt5-default is no more. 
+
+ -- Scarlett <sgmoore@debian.org>  Wed, 16 Mar 2022 19:07:04 -0700
+
 ocs-url (3.1.0-0ubuntu1) trusty; urgency=low
 
   * Drop old xdg:// and xdgs:// schemes
